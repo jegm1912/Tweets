@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+h1, h2 {
+    text-align: center;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.titulo-dos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    
+    
+}
+
+#lista-tweets{
+    list-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0px 20px 0px 20px;
+}
+#contenido {
+    margin-top: 40px;
+    
+}
+.formulario{
+    background-color:rgb(139, 137, 137);
+    padding: 20px;
+}
+.estilos{
+border: 3px solid white;
+
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    
+}
